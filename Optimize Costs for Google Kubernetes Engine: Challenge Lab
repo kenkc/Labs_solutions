@@ -42,7 +42,7 @@ Press ctrl+x then Y then enter
 
 Task 4:-
 
-kubectl autoscale deployment frontend --cpu-percent=50 --min=1 --max=13 --namespace dev
+kubectl autoscale deployment frontend --cpu-percent=50 --min=1 --max=11 --namespace dev
 
 kubectl get hpa --namespace dev
 ZONE=us-central1-b
